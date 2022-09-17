@@ -21,7 +21,22 @@ public class Session {
     }
 
 
+    public static void print_sessions() {
+        System.out.println("-------- Sessions Start --------");
+        for (Session item : sessions) {
+            System.out.println("-------- Session Start --------");
+            System.out.println("Session id: " + item.id);
+            System.out.println("Session date: " + item.date);
+            System.out.println("Session number of reviews: " + item.number_of_reviews);
+            System.out.println("Session price: " + item.price);
+            System.out.println("Session patient id: " + item.patient_id);
+            System.out.println("Session doctor id: " + item.doctor_id);
+            System.out.println("-------- Session End --------");
+        }
+        System.out.println("-------- Sessions End --------");
 
+
+    }
 
 
 
