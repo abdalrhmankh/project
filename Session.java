@@ -1,5 +1,9 @@
 import java.util.ArrayList;
 
+/**
+ * Session
+ * 
+ */
 public class Session {
     private int id;
     private String date;
@@ -37,16 +41,6 @@ public class Session {
 
 
     }
-
-
-
-
-
-
-
-
-
-
 
 
 
