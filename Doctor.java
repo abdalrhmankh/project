@@ -1,6 +1,13 @@
 import java.util.ArrayList;
 
-import javax.print.DocFlavor.STRING;
+/**
+ * Doctor
+ * There are private parameters [
+ *      id, name, email, age, type
+ * ],
+ *   and created method Getter and Setter to all parameters
+ * 
+ */
 
 public class Doctor {
     private int Id;

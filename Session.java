@@ -2,8 +2,13 @@ import java.util.ArrayList;
 
 /**
  * Session
+ * There are private parameters [
+ *      id, date, number_of_reviews, price, patient_id, doctor_id
+ * ],
+ *   and created method Getter and Setter to all parameters
  * 
  */
+
 public class Session {
     private int id;
     private String date;
