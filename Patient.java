@@ -1,3 +1,14 @@
+/**
+ * Patient
+ * There are private parameters [
+ *      id, name, email, age
+ *], 
+ *   and created method Getter and Setter to all parameters
+ * 
+ */
+
+
+
 public class Patient {
     private int Id;
     private String Name;

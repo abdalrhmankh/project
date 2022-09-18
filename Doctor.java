@@ -1,6 +1,13 @@
 import java.util.ArrayList;
 
-import javax.print.DocFlavor.STRING;
+/**
+ * Doctor
+ * There are private parameters [
+ *      id, name, email, age, type
+ * ],
+ *   and created method Getter and Setter to all parameters
+ * 
+ */
 
 public class Doctor {
     private int Id;
@@ -9,7 +16,7 @@ public class Doctor {
     private int Age;
     private String Type;
 
-    private static ArrayList <Doctor> doctors = new ArrayList<>(); 
+    public static ArrayList <Doctor> doctors = new ArrayList<>(); 
     public Doctor(int id, String name, String email, int age, String type) {
         this.Id = id; 
         this.Name = name;
@@ -47,11 +54,5 @@ public class Doctor {
     }
     public void setType(String type) {
         Type = type;
-    }
-    public static ArrayList<Doctor> getDoctors() {
-        return doctors;
-    }
-    public static void setDoctors(ArrayList<Doctor> doctors) {
-        Doctor.doctors = doctors;
     }
 }
