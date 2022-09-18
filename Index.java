@@ -12,8 +12,6 @@ public class Index {
         Doctor.doctors.add(d2);
 
 
-
-
         // Create Patient object
         Patient p1 = new Patient(1, "first patient", "firstpatient@gmail.com", 44);
         Patient p2 = new Patient(1, "second patient", "secondpatient@gmail.com", 52);
