@@ -1,57 +1,49 @@
 import java.util.ArrayList;
 
-import javax.print.DocFlavor.STRING;
+
 
 public class Doctor {
-    private int Id;
-    private String Name;
-    private String Email;
-    private int Age;
-    private String Type;
+    private int id;
+    private String name;
+    private String email;
+    private int age;
+    private String type;
 
     private static ArrayList <Doctor> doctors = new ArrayList<>(); 
+    private  ArrayList<Session> sessions = new ArrayList<>();
     public Doctor(int id, String name, String email, int age, String type) {
-        this.Id = id; 
-        this.Name = name;
-        this.Email = email;
-        this.Age = age;
-        this.Type = type;
+        this.id = id; 
+        this.name = name;
+        this.email = email;
+        this.age = age;
+        this.type = type;
     }
     // creat gettar and settar
     public int getId() {
-        return Id;
+        return id;
     }
     public void setId(int id) {
-        Id = id;
+        this.id = id;
     }
     public String getName() {
-        return Name;
+        return name;
     }
     public void setName(String name) {
-        Name = name;
+        this.name = name;
     }
     public String getEmail() {
-        return Email;
+        return email;
     }
     public void setEmail(String email) {
-        Email = email;
+        this.email = email;
     }
     public int getAge() {
-        return Age;
+        return age;
     }
     public void setAge(int age) {
-        Age = age;
+        this.age = age;
     }
-    public String getType() {
-        return Type;
+  
+  
     }
-    public void setType(String type) {
-        Type = type;
-    }
-    public static ArrayList<Doctor> getDoctors() {
-        return doctors;
-    }
-    public static void setDoctors(ArrayList<Doctor> doctors) {
-        Doctor.doctors = doctors;
-    }
-}
+
