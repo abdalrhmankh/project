@@ -5,10 +5,11 @@ public class Index {
 
         // Create Doctor object
         Doctor d1 = new Doctor(1, "first doctor", "firstdoctor@gmail.com", 40, "first type");
-        Doctor d2 = new Doctor(2, "second doctor", "seconddoctor@gmail.com", 80, "second type");
+        Doctor d2 = new Doctor(2, "second n", "seconddoctor@gmail.com", 80, "second type");
 
         // Add the doctors in array doctors
         Doctor.doctors.add(d1);
+        Doctor.doctors.remove(d1);
         Doctor.doctors.add(d2);
 
 
