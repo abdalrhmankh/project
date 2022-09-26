@@ -20,4 +20,28 @@ public class Patient {
         this.Email = email;
         this.Age = age;
     }
+    public int getId() {
+        return Id;
+    }
+    public void setId(int id) {
+        Id = id;
+    }
+    public String getName() {
+        return Name;
+    }
+    public void setName(String name) {
+        Name = name;
+    }
+    public String getEmail() {
+        return Email;
+    }
+    public void setEmail(String email) {
+        Email = email;
+    }
+    public int getAge() {
+        return Age;
+    }
+    public void setAge(int age) {
+        Age = age;
+    }
 }
